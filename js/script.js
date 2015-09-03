@@ -283,6 +283,8 @@ jQuery(document).ready(function ($) {
 	);
 });
 
+
+
 /******************
 * = Arrows click  *
 ******************/
