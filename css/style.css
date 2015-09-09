@@ -388,13 +388,15 @@ body {
 	text-align: left;
 	width: 100%;
 }
+
+    
 	
 	#slide-3 .col-12 {
 		display: inline-block;
-		height: 451px;
+		height: 350px;
 		margin: 0;
 		padding: 0;
-		width: 452px;
+		width: 350px;
 	}
 
 	#slide-3 a,
@@ -422,6 +424,12 @@ body {
 		width: 50%
 	}
 
+    
+    #slide-3 .title-row {
+		font-size: 45px;
+        text-align: center;
+		padding-bottom: 50px;
+	}
 	#slide-3 a,
 	#slide-3 img {
 		height: auto;

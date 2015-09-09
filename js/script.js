@@ -185,6 +185,7 @@ function enable_arrows( dataslide ) {
 /*************
 * = Parallax *
 *************/
+
 jQuery(document).ready(function ($) {
 	//Cache some variables
 	var links = $('.nav').find('li');
@@ -192,6 +193,7 @@ jQuery(document).ready(function ($) {
 	button = $('.button');
 	mywindow = $(window);
 	htmlbody = $('html,body');
+    onclick = $('click')
 	
 	//Create a function that will be passed a slide number and then will scroll to that slide using jquerys animate. The Jquery
 	//easing plugin is also used, so we passed in the easing method of 'easeInOutQuint' which is available throught the plugin.
@@ -219,6 +221,7 @@ jQuery(document).ready(function ($) {
 		$(".nav-collapse").collapse('hide');
 	});
 });
+
 
 /***************
 * = Menu hover *
